@@ -337,5 +337,13 @@ using (restaurant_id)
 where extract (year from order_date ) = 2023
 group by r.city;
 ```
+# Conclusion
+This Zomato SQL Analysis Project successfully demonstrates how SQL can be leveraged to clean, analyze, and extract valuable insights from food delivery data. Through structured database design, data cleaning, and advanced SQL queries, we uncovered critical business insights such as:
 
+Customer Behavior Trends – Identified top-spending customers, most frequently ordered dishes, and inactive users.
+Operational Efficiency – Analyzed peak ordering times, order cancellations, and delivery performance.
+Revenue Insights – Ranked restaurants by revenue, tracked monthly sales trends, and evaluated customer lifetime value.
+Rider & Restaurant Growth – Assessed rider earnings and restaurant growth ratios over time.
+
+These insights can help Zomato and similar food delivery platforms enhance their customer experience, optimize restaurant partnerships, and streamline logistics. By continuously refining data-driven strategies, businesses can improve efficiency, maximize revenue, and stay competitive in the evolving food delivery industry.
 
